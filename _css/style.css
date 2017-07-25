@@ -28,6 +28,11 @@ a {
   color: #EF233C;
 }
 
+.content-wrap{
+  max-width: 950px;
+  margin: 0 auto;
+}
+
 a:hover {
   text-decoration: none;
 }
