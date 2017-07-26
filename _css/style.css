@@ -34,6 +34,7 @@ a {
   max-width: 950px;
   margin: 0 auto;
   padding: 50px;
+  overflow: auto;
 }
 
 a:hover {
@@ -48,8 +49,20 @@ header, footer {
   color: #8D99AE;
 }
 /* header styles */
+
+header{
+  text-align: center;
+}
+
+.profile-img{
+  width: 300px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
 header h1, header h2{
   color: #EDF2F4;
+  margin: 0;
 }
 
 /* footer styles */
