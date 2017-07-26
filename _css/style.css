@@ -7,6 +7,15 @@
 
 /* Global styles
 ------------------------------------*/
+
+/* border box fix */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
@@ -36,6 +45,18 @@ a {
   padding: 50px;
   overflow: auto;
 }
+
+/* .column-narrow {
+  width: 35%;
+  float: left;
+  padding-right: 3%;
+  min-height: 175px;
+}
+.column-wide {
+  width: 62%;
+  float: left;
+  min-height: 175px;
+*/
 
 a:hover {
   text-decoration: none;
