@@ -46,7 +46,7 @@ a {
   overflow: auto;
 }
 
-/* .column-narrow {
+ .column-narrow {
   width: 35%;
   float: left;
   padding-right: 3%;
@@ -56,7 +56,7 @@ a {
   width: 62%;
   float: left;
   min-height: 175px;
-*/
+}
 
 a:hover {
   text-decoration: none;
