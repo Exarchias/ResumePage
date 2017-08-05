@@ -35,6 +35,10 @@ h2{
   margin-top: 0;
 }
 
+h3{
+  margin: 0;
+}
+
 a {
   color: #EF233C;
 }
@@ -50,12 +54,14 @@ a {
   width: 35%;
   float: left;
   padding-right: 3%;
-  min-height: 175px;
 }
 .column-wide {
   width: 62%;
   float: left;
-  min-height: 175px;
+}
+
+.uppercase{
+  text-transform: uppercase;
 }
 
 a:hover {
@@ -103,9 +109,24 @@ footer{
   background: #EDF2F4;
 }
 
+h3 ~ p {
+  margin:0;
+}
+
+.job-description p:first-of-type {
+  margin-top: 0;
+}
+
+.job-description{
+  margin-bottom: 25px;
+}
 
 /* Education
 ------------------------------------*/
 .education{
   background: #8D99AE;
+}
+
+p + h3 {
+  margin-top: 30px;
 }
