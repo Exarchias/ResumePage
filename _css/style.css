@@ -43,6 +43,14 @@ a {
   color: #EF233C;
 }
 
+.btn{
+  text-decoration: none;
+  background: #EF233C;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+}
+
 .content-wrap{
   max-width: 950px;
   margin: 0 auto;
@@ -80,6 +88,7 @@ header, footer {
 header{
   text-align: center;
   padding-top: 50px;
+  position: relative;
 }
 
 .profile-img{
@@ -101,6 +110,12 @@ footer{
 .contact-info a {
   padding: 10px;
   display: inline-block;
+}
+
+.download{
+  position:absolute;
+  bottom: 0;
+  right: 0;
 }
 
 /* Navigation
